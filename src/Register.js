@@ -8,20 +8,20 @@ const Register = () => {
     email: '',
     phonenumber: ''
   })
-  const [data, setData] = useState({})
+  // const [data, setData] = useState({})
 
   const { username, password, confirmpassword, email, phonenumber } = user;
 
   const changeHandler = (e) => {
     setUser({ ...user, [e.target.name]: [e.target.value]})
-    setData({})
+    // setData({})
   }
 
   const submitHandler = (e) => {
     e.preventDefault()
     window.alert('Registration Successfully')
     console.log(user, '...')
-    setData({})
+    // setData({})
   }
 
   return (

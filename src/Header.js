@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom'
 import Card from './Card';
 
 const Header = () => {
-  const [data, setData] = useState([]);
+  // const [data, setData] = useState([]);
   const [search, setSearch] = useState('');
   const [res, setRes] = useState([]);
 
   useEffect(() => {
     axios.get(`https://dummyjson.com/products`).then((res) => {
       console.log(res.data.products, '....1')
-      setData(res.data.products)
+      // setData(res.data.products)
       setRes(res.data.products)
     }).catch((err) => {
       console.log(err)
