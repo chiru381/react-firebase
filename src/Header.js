@@ -27,7 +27,7 @@ const Header = () => {
   return (
     <div>
         <header style={{ display: "flex", backgroundColor: "yellow" }}>
-            <Link style={{ margin: "25px", color: "brown", fontWeight: "bold", color: "blueviolet", textDecoration: "none" }} to="/">Amazon</Link>
+            <Link style={{ margin: "25px", color: "brown", fontWeight: "bold", textDecoration: "none" }} to="/">Amazon</Link>
             <Link style={{ margin: "25px", color: "brown", fontWeight: "bold", textDecoration: "none" }} to="/cart">Cart</Link>
             <Link style={{ margin: "25px", color: "brown", fontWeight: "bold", textDecoration: "none" }} to="/profile">Profile</Link>
             <Link style={{ margin: "25px", color: "brown", fontWeight: "bold", textDecoration: "none" }} to="/users">Users</Link>
